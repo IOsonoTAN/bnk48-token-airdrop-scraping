@@ -1,0 +1,25 @@
+{
+  "name": "bnk48-token-airdrop-crawler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ENV=production index.js",
+    "dev": "nodemon index.js",
+    "cronjob": "node cron.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "debug": "^4.3.3",
+    "dotenv": "^16.0.0",
+    "fastify": "^3.27.1",
+    "jsdom": "^19.0.0",
+    "node-cron": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "pm2": "^5.1.2"
+  }
+}
