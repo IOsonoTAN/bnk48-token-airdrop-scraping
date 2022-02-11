@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "ENV=production index.js",
+    "start": "ENV=production node index.js",
     "dev": "nodemon index.js",
     "cronjob": "node cron.js"
   },
